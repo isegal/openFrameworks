@@ -154,7 +154,7 @@ ofMesh ofxBaseGui::getTextMesh(const string & text, float x, float y){
 	if(useTTF){
 		return font.getStringMesh(text, x, y);
 	}else{
-		return bitmapFont.getMesh(text, x, y);
+		return bitmapFont.getMesh(text, x, y, OF_BITMAPMODE_SIMPLE);
 	}
 }
 
