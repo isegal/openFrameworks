@@ -519,7 +519,7 @@ void ofAppGLFWWindow::setWindowShape(int w, int h){
 
 //------------------------------------------------------------
 void ofAppGLFWWindow::hideCursor(){
-	glfwSetInputMode(windowP,GLFW_CURSOR,GLFW_CURSOR_HIDDEN);
+	glfwSetInputMode(windowP,GLFW_CURSOR,GLFW_CURSOR_DISABLED);
 };
 
 //------------------------------------------------------------
